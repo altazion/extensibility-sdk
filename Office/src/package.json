@@ -8,5 +8,6 @@
     "dependencies" : [],
     "repository" : {"type": "git", "url": "git://altazion/extensibility-sdk-js.git"},
     "main" : "altazion-office.js",
-    "version" : "0.1.0"
+    "version" : "0.1.0",
+    "publishConfig": { "registry": "https://npm.pkg.github.com/" }
   }
