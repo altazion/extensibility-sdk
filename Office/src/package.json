@@ -1,5 +1,5 @@
 {
-    "name" : "extensibility-sdk-js",
+    "name" : "altazion-office-extensibility",
     "description" : "Client extensibility SDK for Altazion",
     "homepage" : "https://www.altazion.com/",
     "keywords" : ["unified commerce", "client", "extensibility"],
@@ -8,6 +8,5 @@
     "dependencies" : [],
     "repository" : {"type": "git", "url": "git://altazion/extensibility-sdk-js.git"},
     "main" : "altazion-office.js",
-    "version" : "0.1.0",
-    "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+    "version" : "0.1.0"
   }
