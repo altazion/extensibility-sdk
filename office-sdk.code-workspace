@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "Office"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/src/*.js": true
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+    "name" : "altazion-extensibility-sdk",
+    "description" : "Client extensibility SDK for Altazion",
+    "homepage" : "https://www.altazion.com/",
+    "keywords" : ["unified commerce", "client", "extensibility"],
+    "author" : "Altazion Team <sdk@altazion.com>",
+    "contributors" : [],
+    "dependencies" : [],
+    "repository" : {"type": "git", "url": "git://github.com/m/underscore.git"},
+    "main" : "underscore.js",
+    "version" : "1.1.6"
+  }
