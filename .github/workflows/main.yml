@@ -25,22 +25,20 @@ jobs:
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.2
-
+        with:
+          registry-url: 'https://npm.pkg.github.com'
 
       - name: Install typescript
         run: npm install typescript
 
       # Runs a single command using the runners shell
       - name: Typescript compiler  
-        uses: iCrawl/action-tsc@v1
-        with:	
-          project: Office/
+        run: tsc -build office\tsconfig.json
           
       - name: Build package
         run : npm pack Office/src/
-      
-      - name: Auth github packages
-        run: npm login --registry=https://npm.pkg.github.com/
     
       - name: Publish
         run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
