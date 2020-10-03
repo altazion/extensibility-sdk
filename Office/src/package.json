@@ -6,7 +6,7 @@
     "author" : "Altazion Team <sdk@altazion.com>",
     "contributors" : [],
     "dependencies" : [],
-    "repository" : {"type": "git", "url": "git://github.com/m/underscore.git"},
-    "main" : "underscore.js",
-    "version" : "1.1.6"
+    "repository" : {"type": "git", "url": "git://altazion/extensibility-sdk-js.git"},
+    "main" : "altazion-office.js",
+    "version" : "0.1.0"
   }
