@@ -33,7 +33,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Typescript compiler  
-        run: tsc -build office/tsconfig.json
+        run: tsc -build Office/tsconfig.json
           
       - name: Build package
         run : npm pack Office/src/
