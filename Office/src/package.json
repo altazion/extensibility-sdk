@@ -1,5 +1,5 @@
 {
-    "name" : "@altazion/altazion-office",
+    "name" : "@altazion/extensibility-sdk-js",
     "description" : "Client extensibility SDK for Altazion",
     "homepage" : "https://www.altazion.com/",
     "keywords" : ["unified commerce", "client", "extensibility"],
