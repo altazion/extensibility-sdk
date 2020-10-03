@@ -35,3 +35,12 @@ jobs:
         uses: iCrawl/action-tsc@v1
         with:	
           project: Office/
+          
+      - name: Build package
+        run : npm pack Office/src/
+      
+      - name: Auth github packages
+        run: npm login --registry=https://npm.pkg.github.com/
+    
+      - name: Publish
+        run: npm publish
